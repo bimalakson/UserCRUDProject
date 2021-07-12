@@ -16,19 +16,36 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textViewName"
-        android:text="Name : "
+        android:id="@+id/textViewEmail"
+        android:text="Email : "
         android:layout_below="@+id/textViewID"
         android:textSize="20sp"
         />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textViewEmail"
-        android:text="Email : "
-        android:layout_below="@+id/textViewName"
+        android:id="@+id/textViewFName"
+        android:text="First Name : "
+        android:layout_below="@+id/textViewEmail"
         android:textSize="20sp"
         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewLName"
+        android:text="Last Name : "
+        android:layout_below="@+id/textViewFName"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewAva"
+        android:text="Avatar : "
+        android:layout_below="@+id/textViewLName"
+        android:textSize="20sp"
+        />
+
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -40,26 +57,42 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/editName"
-        android:hint="Name"
-        android:layout_toRightOf="@+id/textViewName"
-        android:layout_alignBaseline="@+id/textViewName"
-        />
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:id="@+id/editEmail"
         android:hint="Email"
         android:layout_toRightOf="@+id/textViewEmail"
         android:layout_alignBaseline="@+id/textViewEmail"
         />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editFName"
+        android:hint="First Name"
+        android:layout_toRightOf="@+id/textViewFName"
+        android:layout_alignBaseline="@+id/textViewFName"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editLName"
+        android:hint="Last Name"
+        android:layout_toRightOf="@+id/textViewLName"
+        android:layout_alignBaseline="@+id/textViewLName"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editAva"
+        android:hint="Avatar"
+        android:layout_toRightOf="@+id/textViewAva"
+        android:layout_below="@+id/textViewAva"
+        />
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_below="@+id/textViewEmail"
+        android:layout_below="@+id/textViewAva"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="150dp"
         android:layout_marginBottom="10dp"
         >
         <Button

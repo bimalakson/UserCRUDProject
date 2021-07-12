@@ -21,23 +21,41 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/tvName"
+            android:id="@+id/tvEmail"
             android:textSize="15sp"
-            android:hint="Name"
+            android:hint="Email"
             android:textStyle="bold"
             android:layout_below="@+id/tvId"
             />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/tvEmail"
+            android:id="@+id/tvFName"
             android:textSize="15sp"
-            android:hint="Email"
+            android:hint="First Name"
             android:textStyle="bold"
-            android:layout_below="@+id/tvName"
+            android:layout_below="@+id/tvEmail"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvLName"
+            android:textSize="15sp"
+            android:hint="Last Name"
+            android:textStyle="bold"
+            android:layout_below="@+id/tvFName"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvAva"
+            android:textSize="15sp"
+            android:hint="Avatar"
+            android:textStyle="bold"
+            android:layout_below="@+id/tvLName"
             />
     </RelativeLayout>
-    <view
+    <View
         android:layout_width="match_parent"
         android:layout_height="5dp"
         android:background="@color/design_default_color_primary"
